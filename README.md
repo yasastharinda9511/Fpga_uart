@@ -1,1 +1,1 @@
-#This project is based on developing a uart using Fpga
+#This project is based on developing a uart using verilog.
