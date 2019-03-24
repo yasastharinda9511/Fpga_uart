@@ -1,0 +1,13 @@
+module rx(rx_data,s_tick,out_data);
+	input s_tick;
+	output reg [7:0] out_data;
+	reg [3:0] tick_count=3'b000;
+	parameter IDLE=3'b00,start =2'b01, end_bit=2'b10;
+	reg [2:0] state = IDLE;
+	
+	always@(posedge s_tick)
+		begin
+			case(state)
+				
+		end
+endmodule

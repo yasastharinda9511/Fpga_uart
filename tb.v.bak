@@ -1,0 +1,11 @@
+module tb();
+	reg clk;
+	
+	processor proc (.clk(clk));
+	
+	initial
+		begin
+		clk=1'b0;
+		forever #5 clk=~clk;
+		end
+endmodule 
